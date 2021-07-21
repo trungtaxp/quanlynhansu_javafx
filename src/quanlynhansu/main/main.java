@@ -11,7 +11,7 @@ public class main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("../giaodien/main.fxml"));
-        primaryStage.setTitle("A34684 - A36000 - A37181 - Đề 5");
+        primaryStage.setTitle("Quan ly nhan su");
         primaryStage.setScene(new Scene(root));
         primaryStage.show();
     }

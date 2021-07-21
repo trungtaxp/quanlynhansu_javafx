@@ -100,9 +100,9 @@ public class chucnang implements Initializable {
     ObservableList<String> partTextList = FXCollections.observableArrayList("Technology", "Accounting", "Marketing", "Engineering");
     ObservableList<String> positionList = FXCollections.observableArrayList("CEO", "Founder", "Manager", "Director");
     ObservableList<nhanvien> nhanvienList = FXCollections.observableArrayList(
-            new nhanvien(100001, "Pham Trung Ta", "ta@gmail.com", 20, "Ha Noi", 10, "Male", "Marketing", "Manager", 40000),
-            new nhanvien(100002, "Phan Van Hung", "hung@gmail.com", 20, "Nam Dinh", 20, "Male", "Accounting", "CEO", 180000),
-            new nhanvien(100003, "Le Anh Duc", "duc@gmail.com", 30, "Ha Noi", 20, "Male", "Technology", "Founder", 100000)
+            new nhanvien(100001, "Pham Van A", "A@gmail.com", 20, "Ha Noi", 10, "Male", "Marketing", "Manager", 40000),
+            new nhanvien(100002, "Pham Van B", "B@gmail.com", 20, "Nam Dinh", 20, "Male", "Accounting", "CEO", 180000),
+            new nhanvien(100003, "Pham Van C", "C@gmail.com", 30, "Ha Noi", 20, "Male", "Technology", "Founder", 100000)
     );
 
     @Override
@@ -437,6 +437,7 @@ public class chucnang implements Initializable {
         }
         saveFile(table.getItems(), file);
     }
+    
     public void saveFile(ObservableList<nhanvien> staffList, File file) {
         try {
             BufferedWriter outWriter = new BufferedWriter(new FileWriter(file));
