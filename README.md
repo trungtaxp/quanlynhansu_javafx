@@ -8,14 +8,14 @@ Dùng phần mềm IntelliJ IDEA mở thư mục lên.
 Sau đó lên trang https://gluonhq.com/products/javafx/ tải bản 16 tương thích với hệ điều hành  
 Nhớ là là dạng SDK nha rồi giải nén file ra.
 
-# ép thư viện vào Intellij
+# Ép thư viện vào Intellij
 Sau khi mở xong dự án Java FX trong Intellij
 – Vào File, chọn Project Structure
 – Chọn Libraries
 – Bấm vào dấu +, rồi chọn Java
 – Trỏ đến thư mục lib của thư mục được giải nén ở trên trước.
 
-# ép lib vào run để chạy javafx
+# Ép lib vào run để chạy javafx
 Tiếp theo vào Run, chọn Edit Configurations
 Trong mục VM options của lớp chính nhập thông tin sau vào
 --module-path (đường dẫn đến thư mục lib) --add-modules javafx.controls,javafx.fxml
